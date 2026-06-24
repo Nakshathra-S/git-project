@@ -1,0 +1,227 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgba(222, 221, 221, 0.39);
+}
+/* Header Styling */
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    padding-top: 30px;
+    width: 100%;
+
+}
+header{
+    margin-bottom: 30px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.search{
+    background-image: url(images/search_btn.gif);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-left: 10px;
+}
+header p{
+    padding-left: 170px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+/* Navigation Menu */
+.nav-menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding:0 40px ;
+    margin: 20px 0;
+    align-items: center;
+    gap: 10px;
+}
+.span1{
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: #007cc0;
+    width:100%;
+}
+.nav-menu .span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    color: rgb(79, 78, 78);
+    background-color:rgb(221, 215, 215);
+    width:60%;
+    margin: 0 5px;
+}
+.thirdHeader{
+    width: 100%;
+    display: flex;
+    padding:0 40px ;
+    margin-top: 0px;
+    align-items: center;
+    gap: 10px;
+}
+.firstStep{
+    height: 30px;
+    display: flex;
+    padding-left: 20px;
+    background-color:#c9e8f8;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/resStepDividerPrevious.gif);
+    background-repeat: no-repeat;
+    background-position: right;
+    color: rgb(106, 106, 232);
+
+}
+.secondStep{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #007cc0;
+    background-image: url(images/resStepDividerActive.gif);
+    background-repeat: no-repeat;
+    background-position: right;
+    color: white;
+
+    
+}
+.thirdHeader .span{
+    width: 70%;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+}
+section{
+    display: flex;
+    width: 100%;
+    min-height: 110vh;
+    padding: 20px 40px;
+    gap: 20px;
+}
+.content1{
+    width: 70%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.model1{
+    display: flex;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.model1 .car1box1, .car1box2,.car1box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.car1box4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.content,.but{
+    background-color:#007cc0;
+    width:80px;
+    border: 0px;
+    color: white;
+}
+#color{
+    background-color: rgb(230, 236, 236);
+}
+.content2{
+    width: 30%;
+    min-height: 80vh;
+    background-color:rgb(212, 237, 244);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.SubContent2{
+    padding: 20px;
+}
+.content2 .b1{
+     display: flex;
+     justify-content: space-between;
+     
+}
+.content2 .b2,.b3,.b4,.b5{
+    padding-top: 20px;
+}
+.offer img{
+    width: 100%;
+    height: 30vh;
+    position: relative;
+}
+.offer span  h2{
+    position: absolute ;
+    font-size: 150px;
+    top: 83%;
+    padding-left:100px;
+    color: #ffffffc8;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding:40px;
+    background-color: #f5f5f5;
+}
+.footer1{ display: flex;
+    width: 100%;
+    }
+.footer1 .foot1,.foot2,.foot3,.foot4{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 260px;
+    padding-left: 60px;
+    background-color: #c9e8f8;
+    margin: 0 5px;
+}
+.footer1 .foot1,.foot2,.foot3,.foot4{
+    background-image: url(images/footer-divider-grad.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+
+}
+.footer1 div{
+    padding-top: 10px;
+}
+footer .copy{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #c9e8f8;
+    padding-bottom: 15px;
+    border-bottom: 10px solid #007cc0;
+}
+    
+    
+
+
+     
+      
+
